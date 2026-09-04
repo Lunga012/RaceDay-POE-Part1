@@ -64,7 +64,7 @@ INSERT INTO Event (Name, Description, Date, Location, Distance, Type, OrganiserI
 VALUES ('Comrades Marathon', 'Ultra run', '2026-06-01', 'Durban', 89.0, 'Run', 1),
        ('Cape Town Cycle Tour', 'Cycling event', '2026-03-10', 'Cape Town', 109.0, 'Cycle', 2),
        ('Soweto Marathon', 'Community run', '2026-11-05', 'Soweto', 42.2, 'Run', 1);
-
+--Create a category table
 INSERT INTO Category (EventID, Name, Description)
 VALUES (1, 'Senior', 'Over 20 years'),
        (1, 'Junior', 'Under 20 years'),
